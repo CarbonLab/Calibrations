@@ -1,0 +1,82 @@
+//++************** Deployment Settings ***************
+// Firmware version:    v4.1.6 MpHOx revB
+// Sampling period (s)  0
+// Samples hour align:  Yes
+// Vrsi sps,trials:     20, 10
+// Vrse sps,trials:     20, 10
+// Vtherm sps,trials    20, 5
+// Ik sps, trials:      20, 1
+// Vk sps, trials:      20, 5
+// Ib sps, trials:      20, 1
+// Vb sps, trials:      20, 5
+// Vbias sps,trials:    40, 1
+// Pump start delay:    0
+// Pump seq type:       PUMP_SINGLE
+// Pump on time (s):    10
+// Low battery voltage: 10.0
+// Output mode:         Normal
+// Deploy time:         2023/10/17 23:13:43
+// Time zone:           Local
+// TCOffset:            0.000000
+// k0int:               -0.400000
+// k0ext:               -1.300000
+// k2int:               -0.001455
+// k2ext:               -0.001081
+// Def Sal (ppt):       35.000000
+// Offset Ik:           0.000000
+// Offset Ib:           0.000000
+// s-h c0               340.981986
+// s-h c1               -0.000091
+// s-h c2               -95.088067
+// s-h c3               0.965370
+// Version Info:        v4.1.6 MpHOx revB
+// File name:           MBwharf.txt
+// User initials:       yt
+// Board SN:            A001030
+// MCAP SN:             D000042
+// DuraFET SN:          DSD172
+// Optode SN:           1911
+// CTD SN:              37-23279
+// Pump1 SN:            05-10677
+// Pump2 SN:            NA
+// Package name:        MpHOx001
+// Fab Note:            2020 R30 installed unipolar bias
+// Deploy note:         Launching for Steve C
+// MicroSD Logging:     1
+// Uart Echo:           1
+// App Exec:            0
+// A -- Sample Num               = 1
+// B -- MM/DD/YYYY HH:MM:SS      = 1
+// C -- Battery Volt             = 1
+// D -- Bias Battery Pos         = 1
+// E -- Bias Battery Neg         = 1
+// F -- Board Temperature        = 1
+// G -- Board Humidity           = 1
+// H -- Vthermistor              = 0
+//      Vtermistor Std           = 0
+// I -- Temperature Calc         = 0
+// J -- Vrsi (Int Ref pH volt)   = 0
+//      Vrsi Std                 = 0
+// K -- pH Vrsi Calc             = 0
+// L -- Vrse (Ext Ref pH volt)   = 1
+//      Vrse Std                 = 1
+// M -- pH Vrse Calc             = 0
+// N -- Vrsi Biased (7pH=0v)     = 0
+// O -- Vrsi Biased Std          = 0
+// P -- Vrse Biased (7pH=0v)     = 0
+// Q -- Vrse Biased Std          = 0
+// R -- Counter Electrode Vk     = 1
+//      Counter Electrode Vk Std = 1
+// T -- Counter Electrode Cur Ik = 1
+// U -- Substrate Current        = 1
+// V -- Optode 4831              = 1
+// W -- CTD SBE37 MicroCat       = 1
+//--**************************************************
+
+
+
+
+Starting deployment...       Hit a key, then type 'stop' to end deployment.  Ctrl-X <Enter> to terminate pump cycle
+
+
+ SampNum             MM/DD/YYYY HH:MM:SS        VbatMain        VbiasPos        VbiasNeg         TC_cont        Humidity            Vrse        Vrse_std              Vk          Vk_std           Ik              Ib        Opt_PN  Opt_SN  Moxy    O2satper        TC_opt  Dphase  Bphase  Rphase  Bamp    Bpot    Ramp    Opt_rawtemp     TC_MCat Cond    Pres    pSal    Date_MC Time_MC

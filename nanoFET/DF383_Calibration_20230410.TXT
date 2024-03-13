@@ -1,0 +1,105 @@
+PH CALIBRATION FILE GENERATED ON: 04/10/2023 15:59
+DF 383
+MSC 1080
+APEX ID NaN
+
+** START CONFIG FILE COPY BLOCK **
+Durafet SN = 383, APEX# NaN
+8, number of calibration coefficients
+-1.28805, =k0 Pon; -1.28794 =k0 Poff; -1.28496 =k0 HCl
+-6.35727e-14,2.27651e-10,-1.74927e-07,-1.02260e-03, =k2(fP)*T
+6.35128e-06, =k3*P^1
+-8.57378e-09, =k4*P^2
+6.90912e-12, =k5*P^3
+-3.47014e-15, =k6*P^4
+9.14430e-19, =k7*P^5
+-9.27876e-23, =k8*P^6
+** END CONFIG FILE COPY BLOCK **
+
+** START pHlog.xlsx COPY BLOCK **
+Ptchamber	Ch	PT runs	VrsDrift	k2 f(P) C6	k2 f(P) C5	k2 f(P) C4	k2 f(P) C3	k2 f(P) C2	k2 f(P) C1	k2 f(P) C0	k0(HCl)	R^2	f(P) k8	f(P) k7	f(P) k6	f(P) k5	f(P) k4	f(P) k3	f(P) k2	f(P) k1	f(P) k0	R^2	pH Design	Die	DF#	k0CalDates	k0Soln	k0_pOFF	Stdk0_pOFF	k0_pON	Stdk0_pON
+12/07-12/12/2022	B		-0.020				-6.35727e-14	2.27651e-10	-1.74927e-07	-1.02260e-03	-1.28496	0.9986			-9.27876e-23	9.14430e-19	-3.47014e-15	6.90912e-12	-8.57378e-09	6.35128e-06	-1.28505e+00	0.8723	DF		383	03/06-03/08/2023		-1.28794	6.73132e-05	-1.28805	5.43818e-05
+** END pHlog.xlsx COPY BLOCK **
+
+
+** SUMMARY K2 DATA: **
+Durafet SN:	383	
+pH stem mfg:	MBARI	DF
+PT Source directory :	\\atlas\chem\DuraFET\CALIBRATION\K2_PTChamber_data\	
+PT Source file :	DF#383&VL#383_chB-221207.csv	
+PT test channel :	B	
+HCl concentration:	0.01000	Molar
+k2 Calibration window:	12/07/2022 22:31	12/12/2022 03:57
+Data subset:	ASCENDING	
+Vrs drift rate:	-0.01962	mV/day
+Vk drift rate:	-2.63238	mV/day
+Avg std Vk	122.80000	uVolts
+Average k2:	-1.0276e-03	V/degC
+Std dev k2:	3.0278e-05	V/degC
+k2 f(P) c0	-1.0226e-03	
+k2 f(P) c1	-1.7493e-07	
+k2 f(P) c2	2.2765e-10	
+k2 f(P) c3	-6.3573e-14	
+k0 HCL:	-1.2850	Volts
+Avg Ik:	10.51	nano amps
+Std dev Ik:	7.12	nano amps
+Avg Ib:	1.10	nano amps
+Std dev Ib:	2.32	nano amps
+
+** PRESSURE BINNED K2 DATA: **
+Avg Press	k2	std k2	k0	std k0	R*R	N	Tmin	Tmax
+7.0	-1.0274e-03	6.3918e-06	-1.2850	7.7210e-05	0.9986	38	2.1	19.8
+14.3	-1.0342e-03	1.1884e-05	-1.2850	1.1460e-04	0.9979	18	2.1	15.8
+24.2	-1.0239e-03	6.4467e-06	-1.2849	8.1758e-05	0.9990	28	2.1	19.8
+39.3	-1.0303e-03	6.0283e-06	-1.2848	6.9004e-05	0.9986	43	2.1	19.8
+61.7	-1.0329e-03	5.5878e-06	-1.2846	6.2786e-05	0.9985	54	2.1	19.8
+86.1	-1.0306e-03	5.7433e-06	-1.2846	6.5471e-05	0.9985	49	2.1	19.8
+122.9	-1.0382e-03	4.6499e-06	-1.2844	4.9365e-05	0.9982	90	2.1	19.8
+174.3	-1.0500e-03	7.2414e-06	-1.2841	6.1302e-05	0.9966	73	2.1	13.9
+249.9	-1.0500e-03	5.1379e-06	-1.2839	4.5385e-05	0.9968	138	2.1	13.9
+348.4	-1.0535e-03	5.6478e-06	-1.2837	4.8864e-05	0.9967	117	2.1	13.9
+448.7	-1.0488e-03	5.8809e-06	-1.2835	4.8240e-05	0.9967	106	2.1	13.9
+545.9	-1.0561e-03	1.0889e-05	-1.2833	7.0786e-05	0.9915	83	2.1	9.9
+646.1	-1.0579e-03	1.0615e-05	-1.2832	7.0960e-05	0.9926	76	2.1	9.9
+747.3	-1.0599e-03	1.0249e-05	-1.2831	6.7899e-05	0.9929	79	2.1	9.9
+898.2	-1.0636e-03	7.9537e-06	-1.2829	5.1329e-05	0.9921	145	2.1	9.9
+1093.8	-1.0355e-03	1.1857e-05	-1.2830	5.7682e-05	0.9878	96	2.1	10.0
+1297.8	-9.8058e-04	1.4342e-05	-1.2831	6.2428e-05	0.9828	84	2.1	6.0
+1493.0	-9.8790e-04	1.4034e-05	-1.2832	6.1104e-05	0.9837	84	2.1	6.0
+1691.9	-9.7365e-04	1.3893e-05	-1.2833	6.0534e-05	0.9836	84	2.1	6.0
+1896.7	-9.7293e-04	1.4833e-05	-1.2835	6.4743e-05	0.9813	84	2.1	6.0
+2033.8	-9.7192e-04	2.6845e-05	-1.2836	1.1738e-04	0.9835	24	2.1	6.0
+
+** PH POLYNOMIAL PRESSURE COEFFICIENTS: **
+f(P) NSSR:	5.2631e-08	
+f(P) R*R:	0.8723	
+f(P) c0	-1.2851e+00	
+f(P) c1	6.3513e-06	
+f(P) c2	-8.5738e-09	
+f(P) c3	6.9091e-12	
+f(P) c4	-3.4701e-15	
+f(P) c5	9.1443e-19	
+f(P) c6	-9.2788e-23	
+
+** KO CALIBRATION SUMMARY: **
+MSC # :	1080	
+k0 calibration window	03/06/2023 16:03	03/08/2023 21:03
+Color pH time offset	8	hours
+k0 poly fit	1	
+outlier_threshold	4	
+Ik outlier count	3	
+Ik outlier %	0.14	
+Ib outlier count	1	
+Ib outlier %	0.05	
+k0 Source directory :	\\atlas\chem\DuraFET\CALIBRATION\K0_seawater_data\	
+
+Parameter	Pump ON	Pump OFF	Units
+k0 file	MSC1080_DURA_2.dat	MSC1080_DURA.dat	
+median k0	-1.2881	-1.2879	Volts
+std k0	5.4382e-05	6.7313e-05	Volts
+Avg Vk	-0.8482	-0.8481	Volts
+Avg std Vk	55.6	56.7	uVolts
+median Ik:	-4.67	-4.66	nano amps
+std Ik:	3.23	3.15	nano amps
+median Ib:	-0.42	-0.15	nano amps
+std Ib:	6.58	6.53	nano amps
